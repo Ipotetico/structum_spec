@@ -20,7 +20,7 @@ const Page12 = ({setPage}) => {
 
 
 
-    <div className="central__container page06">
+    <div className="central__container page12">
     
 <div className="container">
     <img src={process.env.PUBLIC_URL + `/images/kosciotrupy.png`} alt="" />

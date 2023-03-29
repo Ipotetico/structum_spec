@@ -23,21 +23,27 @@ const Page16 = ({setPage}) => {
     <div className="central__container page16">
 
         <h1 className='title'>UKŁAD <br /> KRĄŻENIA</h1>
+        <div className="picture__container">
 <img src={process.env.PUBLIC_URL + `/images/serce.png`} alt="" />
-     <h1 className='copy'> <span>Zwiększenie ryzyka sercowo-naczyniowego <br /> </span>  oraz <span>  powikłań 
-zatorowo-zakrzepowych,</span> <br /> hamowanie aktywacji płytek krwi.<sup>(1)</sup></h1>
+</div>
+     <h1 className='copy'> <span>Zwiększenie ryzyka sercowo-naczyniowego </span>  oraz <span>  powikłań 
+zatorowo-zakrzepowych,</span> hamowanie aktywacji płytek krwi.<sup>(1)</sup></h1>
 
 
         <h1 className='title'>UKŁAD <br /> POKARMOWY </h1>
+                <div className="picture__container">
 <img src={process.env.PUBLIC_URL + `/images/zolad.png`} alt="" />
-     <h1 className='copy'> <span>Nadżerki przełyku, owrzodzenia </span>  żołądka <br /> oraz dwunastnicy, <span>  krwawienie</span> z górnego <br /> odcinka przewodu 
+</div>
+     <h1 className='copy'> <span>Nadżerki przełyku, owrzodzenia </span>  żołądka <br /> oraz dwunastnicy, <span>  krwawienie</span> z górnego odcinka przewodu 
 pokarmowego.<sup>(1)</sup></h1>
 
 
         <h1 className='title'>UKŁAD <br /> MOCZOWY </h1>
+              <div className="picture__container">
 <img src={process.env.PUBLIC_URL + `/images/nery.png`} alt="" />
+</div>
      <h1 className='copy'> <span>Zaburzenia równowagi 
-sodowo-potasowej, </span> <br />  zwiększona retencja jonów sodu.<sup>(2)</sup></h1>
+sodowo-potasowej, </span>  zwiększona retencja jonów sodu.<sup>(2)</sup></h1>
 
 </div>
 </>

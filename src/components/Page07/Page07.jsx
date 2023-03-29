@@ -20,14 +20,14 @@ z chorobą zwyrodnieniową stawów?</span>   </h1>
 
 
 
-    <div className="central__container page06">
+    <div className="central__container page12">
     
 <div className="container">
     <img src={process.env.PUBLIC_URL + `/images/PTMR.svg`} alt="" />
         <img src={process.env.PUBLIC_URL + `/images/trzy_fotki.png`} alt="" />
 </div>
 
-<div className="container" style={{padding:'3vw '}}>
+<div className="container ">
     <h2>prof. dr hab. n. med. <br />
 Anna Kuryliszyn-Moskal</h2>
 <h2>prof. dr hab. n. med. <br />

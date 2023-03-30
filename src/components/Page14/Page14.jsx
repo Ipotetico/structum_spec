@@ -9,7 +9,7 @@ const Page14 = ({setPage}) => {
     <img src={process.env.PUBLIC_URL + `/images/tlo.jpg`} alt="" className='tlo' />
     <img src={process.env.PUBLIC_URL + `/images/logo_Structum.jpg`}alt="" className="logo" />
     <p className="warning">Materiały do użytku wewnętrznego - poufne</p>
-        <p className="warning two">PFM/48/2023</p>
+            <p className="warning two">PFM/49/2023</p>
 <p className="notes page02"></p>
 </div>
 

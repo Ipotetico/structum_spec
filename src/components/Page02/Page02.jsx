@@ -12,6 +12,7 @@ const Page02 = ({setPage}) => {
 </div>
 
     <img onClick={()=>setPage(3)} src={process.env.PUBLIC_URL + `/images/dalej.svg`}alt="" className="dalej" />
+        <img onClick={()=>setPage(1)} src={process.env.PUBLIC_URL + `/images/cofnij.svg`}alt="" className="cofnij" />
 
 
     <div className="page__container">

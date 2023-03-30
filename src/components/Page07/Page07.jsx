@@ -5,7 +5,7 @@ const Page07 = ({setPage}) => {
 
   return (
 <>
-    <img onClick={()=>setPage(8)} src={process.env.PUBLIC_URL + `/images/dalej.svg`}alt="" className="dalej" />
+
 
 <div className="background">
     <img src={process.env.PUBLIC_URL + `/images/tlo.jpg`} alt="" className='tlo' />

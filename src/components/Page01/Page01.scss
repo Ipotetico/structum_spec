@@ -486,7 +486,7 @@ body,
 .warning {
     position: absolute;
     bottom: 5%;
-    left: 1%;
+    left: 8%;
     color: white;
     font-size: calc(8px + .2vw);
     font-weight:400;
@@ -502,7 +502,7 @@ body,
     color: white;
     width: 70%;
     bottom:5%;
-    right: 1%;
+    left:32%;
     font-size: calc(9px + .2vw);
     font-weight: 400;
 
@@ -516,13 +516,17 @@ body,
     }
 }
 
-.dalej {
+.dalej,
+.cofnij {
     width: 7vw;
     position: absolute;
     bottom: 0;
     right: 0;
     cursor: pointer;
     z-index: 999;
+}
+.cofnij {
+    left: 0;
 }
 .circle {
     position: absolute;

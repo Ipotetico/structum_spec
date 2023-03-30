@@ -13,7 +13,9 @@ const Page17 = ({setPage}) => {
 <p className="notes page02 character">Charakterystyka produktu leczniczego Structum 01.2022</p>
 </div>
 
-    <img onClick={()=>setPage(10)} src={process.env.PUBLIC_URL + `/images/dalej.svg`}alt="" className="dalej" />
+    <img onClick={()=>setPage(18)} src={process.env.PUBLIC_URL + `/images/dalej.svg`}alt="" className="dalej" />
+
+                    <img onClick={()=>setPage(16)} src={process.env.PUBLIC_URL + `/images/cofnij.svg`}alt="" className="cofnij" />
 
 
     <div className="page__container">

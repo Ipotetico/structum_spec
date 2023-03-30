@@ -13,6 +13,8 @@ const Page04 = ({setPage}) => {
 
     <img onClick={()=>setPage(5)} src={process.env.PUBLIC_URL + `/images/dalej.svg`}alt="" className="dalej" />
 
+                <img onClick={()=>setPage(3)} src={process.env.PUBLIC_URL + `/images/cofnij.svg`}alt="" className="cofnij" />
+
 
     <div className="page__container">
         <h1><span>ChZS jest jedną z najczęstszych przyczyn</span> niepełnosprawności ruchowej.<sup>(1)</sup> </h1>
